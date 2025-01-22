@@ -19,4 +19,31 @@
         height: 200px;
         background-color: rgba(128, 255, 0, 0.356);
     }
+
+    .left {
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.521);
+        width: 50%;
+
+    }
+
+    .rigth {
+        height: 70px;
+        width: 50%;
+        background-color: rgba(187, 255, 0, 0.596);
+    }
+}
+
+/* start header */
+nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.rigth {
+    max-width: 50%;
 }
