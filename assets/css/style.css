@@ -13,9 +13,24 @@
     } */
 
     main {
-        height: 1200px;
+
         background-color: rgba(0, 0, 255, 0.281);
         border: 1px solid;
+
+        .main-container {
+            background-color: rgba(192, 196, 255, 0.705);
+            height: 900px;
+            flex-direction: column;
+            border: 1px solid black;
+
+            .row {
+                border: 1px solid black;
+                display: flex;
+                height: 295px;
+                background-color: #00fe7223;
+                width: 100%;
+            }
+        }
     }
 
     footer {
@@ -140,7 +155,7 @@ nav {
 
             img {
                 width: 100%;
-                margin-bottom: -60px;
+                margin-bottom: -100px;
             }
 
             p {
@@ -159,6 +174,7 @@ nav {
 
     .arrow {
         font-size: 3rem;
+        margin-top: 100px;
 
         i {
             color: black;
