@@ -60,7 +60,16 @@
     gap: 10px;
 }
 
+.gap20 {
+    gap: 20px;
+}
+
 .max-w {
-    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.max-w1000 {
+    max-width: 1000px;
     margin: auto;
 }
