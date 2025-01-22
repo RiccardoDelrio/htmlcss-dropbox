@@ -207,7 +207,7 @@ main {}
     width: 100%;
     flex-direction: column;
     gap: 40px;
-    padding: 20px 0;
+
 
     h1 {
         font-size: 3rem;
@@ -221,6 +221,7 @@ main {}
     flex-wrap: wrap;
 
 
+
 }
 
 .sub-down {
@@ -231,8 +232,8 @@ main {}
 
 .subscriptions {
 
-    border: 1px solid rgba(128, 128, 128, 0.274);
 
+    padding: 10px;
 
     .user {
 
@@ -290,4 +291,17 @@ main {}
 
 .sub-down {
     padding: 20px;
+
+
+}
+
+.card-container {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    height: 100%;
+
+    ul {
+        li {
+            padding: 10px 0;
+        }
+    }
 }
