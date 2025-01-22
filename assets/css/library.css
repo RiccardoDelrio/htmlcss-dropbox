@@ -1,52 +1,57 @@
 .col1 {
-    width: calc(100/12*1);
+    width: calc(100%/12*1);
 }
 
 .col2 {
-    width: calc(100/12*2);
+    width: calc(100%/12*2);
 }
 
 .col3 {
-    width: calc(100/12*3);
+    width: calc(100%/12*3);
 }
 
 .col4 {
-    width: calc(100/12*4);
+    width: calc(100%/12*4);
 }
 
 .col5 {
-    width: calc(100/12*5);
+    width: calc(100%/12*5);
 }
 
 .col6 {
-    width: calc(100/12*6);
+    width: calc(100%/12*6);
 }
 
 .col7 {
-    width: calc(100/12*7);
+    width: calc(100%/12*7);
 }
 
 .col8 {
-    width: calc(100/12*8);
+    width: calc(100%/12*8);
 }
 
 .col9 {
-    width: calc(100/12*9);
+    width: calc(100%/12*9);
 }
 
 .col10 {
-    width: calc(100/12*10);
+    width: calc(100%/12*10);
 }
 
 .col11 {
-    width: calc(100/12*11);
+    width: calc(100%/12*11);
 }
 
 .col12 {
-    width: calc(100/12*12);
+    width: calc(100%/12*12);
 }
 
-.w-70 {
-    width: 80%;
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
+.w-80 {
+    width: 70%;
     margin: auto;
 }
