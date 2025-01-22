@@ -13,7 +13,7 @@
     } */
 
     main {
-
+        /*
         background-color: rgba(0, 0, 255, 0.281);
         border: 1px solid;
 
@@ -30,7 +30,7 @@
                 background-color: #00fe7223;
                 width: 100%;
             }
-        }
+        } */
     }
 
     footer {
@@ -113,6 +113,10 @@ a {
     }
 }
 
+ul {
+    list-style: none;
+}
+
 /* start header */
 nav {
     width: 100%;
@@ -131,9 +135,12 @@ nav {
 }
 
 /* startmain */
+main {}
+
 /* startjumbotron */
 .jumbotron-container {
     background-color: var(--drop-primary);
+
 }
 
 .jumbotron {
@@ -155,7 +162,7 @@ nav {
 
             img {
                 width: 100%;
-                margin-bottom: -100px;
+
             }
 
             p {
@@ -170,6 +177,13 @@ nav {
 
             }
         }
+
+
+    }
+
+    .negativ-margin {
+        margin-bottom: -70px;
+        align-content: end;
     }
 
     .arrow {
@@ -178,6 +192,93 @@ nav {
 
         i {
             color: black;
+        }
+    }
+}
+
+.main-container {
+    flex-direction: column;
+    padding-top: 120px;
+
+}
+
+.row-c {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.sub-down {
+    i {
+        color: var(--drop-btn-hover);
+    }
+}
+
+.subscriptions {
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+
+    .user {
+
+        width: 100%;
+
+        i {
+            width: 100%;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+
+
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .btn-style {
+        padding: 10px;
+        color: white;
+    }
+
+    .sub-type {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .monthly {
+        color: gray
+    }
+
+    .advantages {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+
+        a {
+            text-decoration: underline;
+            color: #3845f6;
         }
     }
 }

@@ -53,5 +53,14 @@
 
 .w-80 {
     width: 70%;
+
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.max-w {
+    width: 1200px;
     margin: auto;
 }
