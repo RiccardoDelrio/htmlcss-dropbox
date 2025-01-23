@@ -33,11 +33,11 @@
         } */
     }
 
-    footer {
+    /* footer {
         height: 200px;
         background-color: rgba(128, 255, 0, 0.356);
         border: 1px solid;
-    }
+    } */
 
     /* .left {
         height: 70px;
@@ -404,6 +404,24 @@ main {}
         font-size: 1.1rem;
     }
 
+}
 
+footer {
+    background-color: black;
+    color: white;
+    padding: 80px;
 
+    h4 {
+        font-size: 2rem;
+    }
+
+    li {
+        padding: 10px 0;
+
+        a {
+
+            color: white;
+            text-decoration: none;
+        }
+    }
 }

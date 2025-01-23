@@ -85,3 +85,11 @@
 .f-wrap {
     flex-wrap: wrap;
 }
+
+.gap30 {
+    gap: 30px;
+}
+
+.gap40 {
+    gap: 40px;
+}
