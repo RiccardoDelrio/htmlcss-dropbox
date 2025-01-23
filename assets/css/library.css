@@ -73,3 +73,7 @@
     max-width: 1000px;
     margin: auto;
 }
+
+.w100 {
+    width: 100%;
+}

@@ -90,21 +90,19 @@
     --drop-primary: #b4d0e6;
 }
 
-a {
-    text-decoration: none;
-    color: black;
 
-}
 
 .btn-style {
     display: flex;
     background-color: var(--drop-btn);
-    align-content: center;
+    align-items: center;
     padding: 3px 15px;
     justify-content: center;
+    max-height: 40px;
 
     a {
         color: white;
+        text-decoration: none;
     }
 
     &:hover {
@@ -128,11 +126,31 @@ nav {
     align-content: center;
     align-items: center;
     gap: 40px;
-    padding: 20px;
     font-size: 1.1rem;
 
+    ul {
+        li {
+            padding: 20px;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    .btn-style {
+        margin: auto;
+    }
+
+    a:not(.btn-style) {
+        text-decoration: none;
+        color: black;
+
+    }
 
 }
+
 
 /* startmain */
 main {}
@@ -209,6 +227,7 @@ main {}
     gap: 40px;
 
 
+
     h1 {
         font-size: 3rem;
     }
@@ -217,7 +236,7 @@ main {}
 .row {
     display: flex;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     flex-wrap: wrap;
 
 
@@ -277,17 +296,25 @@ main {}
         color: gray
     }
 
-    .advantages {
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 30px;
-
-        a {
-            text-decoration: underline;
-            color: #3845f6;
-        }
-    }
 }
+
+.advantages {
+
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    align-content: center;
+    width: 100%;
+
+
+}
+
+.none {
+
+    text-decoration: underline;
+}
+
+
 
 .sub-down {
     padding: 20px;
@@ -304,4 +331,35 @@ main {}
             padding: 10px 0;
         }
     }
+}
+
+.left-side-card {
+    padding: 40px 40px;
+    flex-direction: column;
+    gap: 30px;
+
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        border: 1px solid black;
+        padding: 10px;
+
+        &:hover {
+            background-color: black;
+            color: white
+        }
+    }
+
 }
