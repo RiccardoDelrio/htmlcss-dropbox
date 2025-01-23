@@ -99,6 +99,7 @@
     padding: 3px 15px;
     justify-content: center;
     max-height: 40px;
+    text-decoration: none;
 
     a {
         color: white;
@@ -116,9 +117,17 @@ ul {
 }
 
 /* start header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 8px 0px 20px 0;
+}
+
 nav {
     width: 100%;
     justify-content: space-between;
+
 }
 
 .header-section {
@@ -141,6 +150,7 @@ nav {
 
     .btn-style {
         margin: auto;
+        text-decoration: none;
     }
 
     a:not(.btn-style) {
@@ -409,10 +419,14 @@ main {}
 footer {
     background-color: black;
     color: white;
-    padding: 80px;
+    padding: 80px 80px 0;
 
     h4 {
         font-size: 2rem;
+    }
+
+    ul {
+        margin-bottom: 30px;
     }
 
     li {
@@ -423,5 +437,15 @@ footer {
             color: white;
             text-decoration: none;
         }
+    }
+}
+
+.language {
+
+    padding: 60px 0;
+    border-top: 1px solid white;
+
+    span {
+        padding-left: 10px;
     }
 }
