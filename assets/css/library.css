@@ -77,3 +77,11 @@
 .w100 {
     width: 100%;
 }
+
+.flex-c {
+    flex-direction: column;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
