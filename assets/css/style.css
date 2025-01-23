@@ -390,3 +390,20 @@ main {}
 
     gap:20px
 }
+
+.finalmessage {
+    gap: 30px;
+    margin: 100px 0;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    a {
+        color: var(--drop-btn-hover);
+        font-size: 1.1rem;
+    }
+
+
+
+}
