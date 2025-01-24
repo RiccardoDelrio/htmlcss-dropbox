@@ -163,7 +163,7 @@ nav {
 
 
 /* startmain */
-main {}
+
 
 /* startjumbotron */
 .jumbotron-container {
@@ -456,3 +456,9 @@ footer {
         padding-left: 10px;
     }
 }
+
+/* @media screen and (max-width: 992px) {
+    header {
+        background-color: black;
+    }
+} */
